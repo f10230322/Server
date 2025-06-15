@@ -9,8 +9,8 @@ import os
 app = Flask(__name__)
 
 # ---------------- LINE Bot 設定 ----------------
-CHANNEL_ACCESS_TOKEN = 'wzlUwfPX9O0but5or/gzp9VTkqsx6AoRrC4vqtvlyWT3VVqAMn0E08Ok7Od3K20UlX+zC/1MITFhCuOom7LqnIyCbpXkVwYbZsvyoU2AmvGfHKlomt0VRkuXK7jPbq0jDXvrRqFtKLtkaidZF2vNYQdB04t89/1O/w1cDnyilFU='
-CHANNEL_SECRET = 'f21f89e22254f4006e4a6cb8a27128e5'
+CHANNEL_ACCESS_TOKEN = 'your channel access token'
+CHANNEL_SECRET = 'your channel secret'
 
 line_bot_api = LineBotApi(CHANNEL_ACCESS_TOKEN)
 handler = WebhookHandler(CHANNEL_SECRET)
